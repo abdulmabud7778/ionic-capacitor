@@ -1,0 +1,53 @@
+<ion-header [translucent]="true">
+	<ion-toolbar>
+		<ion-title>
+			Home
+		</ion-title>
+	</ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+	<ion-header collapse="condense">
+		<ion-toolbar>
+			<ion-title size="large">Home</ion-title>
+		</ion-toolbar>
+	</ion-header>
+
+	<div id="container">
+		<!-- <ion-button (click)="logout()" expand="full">Logout</ion-button> -->
+		<h2>Loged In With {{loginWith}}</h2>
+		<div class="userName">Name: {{displayName}}</div>
+		<div class="userName email">E-Mail: {{email}}</div>
+		<ion-button (click)="basicShare()">Share</ion-button>
+		<ion-button (click)="buyRazorPay()">Pay Rs 45</ion-button>
+		<ion-button (click)="goToPage('device-info')">Device Info</ion-button>
+		<ion-button (click)="goToPage('file-opener')">File Opener</ion-button>
+		<ion-accordion-group>
+			<ion-accordion value="first">
+			  <ion-item slot="header" color="light">
+				<ion-label>First Accordion</ion-label>
+			  </ion-item>
+			  <div class="ion-padding" slot="content">
+				First Content
+			  </div>
+			</ion-accordion>
+			<ion-accordion value="second">
+			  <ion-item slot="header" color="light">
+				<ion-label>Second Accordion</ion-label>
+			  </ion-item>
+			  <div class="ion-padding" slot="content">
+				Second Content
+			  </div>
+			</ion-accordion>
+			<ion-accordion value="third">
+			  <ion-item slot="header" color="light">
+				<ion-label>Third Accordion</ion-label>
+			  </ion-item>
+			  <div class="ion-padding" slot="content">
+				Third Content
+			  </div>
+			</ion-accordion>
+		  </ion-accordion-group>
+		  <ion-datetime></ion-datetime>
+	</div>
+</ion-content>

@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">ionic-capacitor</string>
+    <string name="title_activity_main">ionic-capacitor</string>
+    <string name="package_name">com.example.app</string>
+    <string name="custom_url_scheme">com.example.app</string>
+    <string name="server_client_id">756253807597-l87go2i1cdh03fgspa86brfove8sttnn.apps.googleusercontent.com</string>
+    <string name="facebook_app_id">598001788331825</string>
+    <string name="fb_login_protocol_scheme">fb598001788331825</string>
+</resources>
