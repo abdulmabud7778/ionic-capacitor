@@ -1,0 +1,32 @@
+.splashholder{
+    display:flex;
+    width: 100%;
+    justify-content:center;
+    align-items:center;
+    height: 70vh;
+    .text-center {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .splash-title{
+        font-family: "Circular-Std", sans-serif;
+        font-size: 20px;
+        font-weight: 700;
+        position: absolute;
+        bottom: 60px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        padding: 15px 20px;
+        text-align: center;
+    }
+    .financelogo{
+        width: 200px;
+    }
+    .logo-title{
+        font-size: 20px;
+        color: #2E3034;
+        font-family: "Circular-Std", sans-serif;
+    }
+}
